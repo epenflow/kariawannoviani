@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gold-border {
+	border: solid 2px rgb(202 138 4 / var(--tw-bg-opacity));
+}
