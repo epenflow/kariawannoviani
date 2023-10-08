@@ -28,7 +28,7 @@ const FirstPage = ({
 				trigger: thirdContentRef.current,
 				scrub: true,
 				pin: containerRef.current,
-				start: 'top-=300 top',
+				start: () => 'top-=200 top',
 			},
 			defaults: {
 				duration: 10,

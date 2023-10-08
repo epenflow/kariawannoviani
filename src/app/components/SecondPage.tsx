@@ -24,7 +24,7 @@ const SecondPage = ({
 				trigger: firstContentRef.current,
 				scrub: true,
 				pin: containerRef.current,
-				start: 'top top',
+				start: () => 'top top',
 			},
 			defaults: {
 				duration: 10,
